@@ -67,3 +67,7 @@ for linha in tabela.index:
         pyautogui.write(str(obs))
     pyautogui.press("enter")
     pyautogui.press("home")
+#O sistema foi desenvolvido usando o libreoffice para gravar na planilha.
+#Pega as informações desejadas da base de dados e monta uma planilha, a planilha fica a sua escolha.
+# O codigo auxilia eu usei para capturar a posição do mouser em determinado ponto onde eu queria que o clic automatico ocorrece.
+# O tempo pyautogui.PAUSE = 3 , foi porque o meu computador é muito lento.
